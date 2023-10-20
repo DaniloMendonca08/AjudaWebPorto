@@ -7,12 +7,10 @@ import { StyledImgOrganograma } from "./BodyOrganograma.style";
 export const BodyOrganograma = () => {
     return(
         <>
-        <body>
             <StyledDivOrganograma>
                 <StyledH1Organograma>Organograma</StyledH1Organograma>
                 <StyledImgOrganograma src={imgOrganograma} alt="Imagem de um organograma feito para o projeto" />
             </StyledDivOrganograma>
-        </body>
         </>
     )
 }
