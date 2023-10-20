@@ -49,7 +49,6 @@ export const StyledInputHeader = styled.input`
     background-repeat: no-repeat;
     border: 1px solid white;
     text-align: center;
-    margin-left: 100px;
     
 ${(props) =>
 props.RemoverInput &&`

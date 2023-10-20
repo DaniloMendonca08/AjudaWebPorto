@@ -22,7 +22,6 @@ export const Header = ({RemoverInput}: InputProps) => {
                     <Dropdown />
                 </Router>
             </StyledDivHeader>
-           
             </StyledHeader>
         </header>
         
