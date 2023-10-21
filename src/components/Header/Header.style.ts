@@ -4,11 +4,14 @@ import Lupa from "../../assets/LupaDePesquisa.svg"
 export const StyledHeader = styled.header`
     background-color: #E2E2FF;
     width: 100%;
-    height: 10vh;
-    padding: 15px 0;
+    padding-top: 3vh;
+
+@media (min-width: 320px) {
+    height: 6vh;
+}
 
 @media (min-width: 768px) {
-        height: 12vh;
+    height: 9vh;
 }
 
 
@@ -19,11 +22,20 @@ export const StyledHeader = styled.header`
 
 export const StyledDivHeader = styled.div`
     display: flex; 
-    align-items: center;
-    justify-content: space-between;
+    align-items: center; 
+    margin-left: 32px;   
+
+    @media (min-width: 320px) {
+        margin-left: 10px;
+        margin-top: 0;
+    }
 
     @media (min-width: 768px) {
-        margin-bottom: 30px;
+        margin-left: 14px;
+    }
+
+    @media (min-width: 1024px) {
+        margin-left: 17px;
     }
 
 ` 
@@ -46,17 +58,17 @@ props.RemoverInput &&`
 
 @media (min-width: 320px) {
     display: none;
-    
 }
 
 @media (min-width: 768px) {
     display: block;
     height: 40px;
-    margin-left: 70px;
+    margin-left: 30px;
 }
 
 @media (min-width: 1024px) {
     font-size: 18px;
+    margin-left: 130px;
 }
 `
 
@@ -64,11 +76,15 @@ export const StyledImgPorto = styled.img`
     width: 100px;
     margin-left: 3vw;
 
+@media (min-width: 320px) {
+    width: 100px;
+}
+
 @media (min-width: 1024px) {
     width: 150px;
 }
 
 @media (min-width: 768px) {
-    width: 120px;
+    width: 130px;
 }
 `
