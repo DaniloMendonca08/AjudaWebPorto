@@ -11,7 +11,7 @@ export const StyledHeader = styled.header`
 }
 
 @media (min-width: 768px) {
-    height: 9vh;
+    height: 10vh;
 }
 
 
@@ -23,6 +23,7 @@ export const StyledHeader = styled.header`
 export const StyledDivHeader = styled.div`
     display: flex; 
     align-items: center; 
+    justify-content: space-between;
     margin-left: 32px;   
 
     @media (min-width: 320px) {
@@ -41,7 +42,7 @@ export const StyledDivHeader = styled.div`
 ` 
 
 export const StyledInputHeader = styled.input`
-    width: 400px;
+    width: 700px;
     height: 40px;
     border-radius: 150px;
     background-image: url(${Lupa});
@@ -49,6 +50,7 @@ export const StyledInputHeader = styled.input`
     background-repeat: no-repeat;
     border: 1px solid white;
     text-align: center;
+    margin-right: 205px;
     
 ${(props) =>
 props.RemoverInput &&`
@@ -62,13 +64,15 @@ props.RemoverInput &&`
 
 @media (min-width: 768px) {
     display: block;
+    width: 350px;
     height: 40px;
-    margin-left: 30px;
+    margin-right: 70px;
 }
 
 @media (min-width: 1024px) {
     font-size: 18px;
-    margin-left: 130px;
+    width: 450px;
+    margin-left: 40px;
 }
 `
 
@@ -77,14 +81,16 @@ export const StyledImgPorto = styled.img`
     margin-left: 3vw;
 
 @media (min-width: 320px) {
-    width: 100px;
+    width: 90px;
+    margin-left: 0;
+}
+
+@media (min-width: 768px) {
+    margin-left: 0;
+    width: 130px;
 }
 
 @media (min-width: 1024px) {
     width: 150px;
-}
-
-@media (min-width: 768px) {
-    width: 130px;
 }
 `
