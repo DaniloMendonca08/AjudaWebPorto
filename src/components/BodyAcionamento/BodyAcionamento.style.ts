@@ -37,11 +37,8 @@ export const StyledImgBodyAcionamento = styled.img`
 export const StyledDivBodyAcionamento = styled.div`
     display: grid;
     justify-items: center;
-    padding: 0 80px;
-
-@media (min-width: 320px) {
     padding: 0 20px;
-}
+
 `
 
 export const StyledTagPBodyAcionamento = styled.p`
