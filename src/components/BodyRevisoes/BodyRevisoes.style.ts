@@ -37,11 +37,8 @@ export const StyledImgBodyRevisoes = styled.img`
 export const StyledDivBodyRevisoes = styled.div`
     display: grid;
     justify-items: center;
-    padding: 0 80px;
-
-@media (min-width: 320px) {
     padding: 0 20px;
-}
+
 `
 
 export const StyledTagPBodyRevisoes = styled.p`
