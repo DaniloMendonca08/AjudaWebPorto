@@ -34,10 +34,6 @@ export const StyledDivCentralSolucoes = styled.div`
     padding: 20.4vh 0;
 }
 
-@media (min-width: 1440px) {
-    padding: 20.4vh 0;
-}
-
 @media (min-width: 1920px) {
     padding: 17.4vh 0;
 }
