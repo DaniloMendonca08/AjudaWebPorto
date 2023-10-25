@@ -63,9 +63,9 @@ export const StyledTagPBodyRevisoes = styled.p`
     padding-bottom: 9.7vh;
 }
     
-    @media (min-width: 768px) {
+@media (min-width: 768px) {
     padding-bottom: 10vh;
-    }
+}
 
 @media (min-width: 1024px) {
     font-size: 24px;
