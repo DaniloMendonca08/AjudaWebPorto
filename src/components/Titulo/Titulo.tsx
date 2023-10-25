@@ -1,11 +1,11 @@
 import { StyledH1 } from "./Titulo.style"
 
 interface TituloProps {
-    children: React.ReactNode
+    titulo: string
 }
 
-export const Titulo = ({children}: TituloProps) => {
+export const Titulo = ({titulo}: TituloProps) => {
     return (
-        <StyledH1>{children}</StyledH1>
+        <StyledH1>{titulo}</StyledH1>
     )
 }
