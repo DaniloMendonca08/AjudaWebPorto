@@ -4,7 +4,7 @@ export const StyledH1 = styled.h1`
     font-family: 'Open Sans';
     font-size: 32px;
     font-weight: 300;
-    padding: 25px 0;
+    padding: 15px 0;
     text-align: center;
 
     @media (min-width: 320px) {
