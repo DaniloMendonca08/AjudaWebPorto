@@ -1,4 +1,4 @@
-import { StyledH1CentralSolucoes } from "./BodyCentralSolucoes.style"
+import { Titulo } from "../Titulo/Titulo"
 import { StyledDivCentralSolucoes } from "./BodyCentralSolucoes.style"
 import { StyledBodyCentralSolucoes } from "./BodyCentralSolucoes.style"
 import { StyledTagACentralSolucoes } from "./BodyCentralSolucoes.style"
@@ -8,7 +8,7 @@ export const BodyCentralSolucoes = () => {
     return(
         <>
         <StyledBodyCentralSolucoes>
-            <StyledH1CentralSolucoes>Central de Soluções</StyledH1CentralSolucoes>
+            <Titulo titulo="Central de Soluções"/>
 
             <StyledDivCentralSolucoes>
                 <StyledTagACentralSolucoes href="">Acionar Sinistro</StyledTagACentralSolucoes>

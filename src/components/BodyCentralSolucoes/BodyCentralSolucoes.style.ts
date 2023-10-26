@@ -5,27 +5,12 @@ export const StyledBodyCentralSolucoes = styled.body`
 
 `
 
-export const StyledH1CentralSolucoes = styled.h1`
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 30px;
-    text-align: center;
-    padding-top: 3%;
-@media (min-width: 320px) {
-    font-size: 25px;
-    padding-top: 8vh;
-}
-
-@media(min-width: 1024px) {
-    font-size: 30px;
-}
-`
-
 export const StyledDivCentralSolucoes = styled.div`
     display: grid;
     grid-template-columns: 50% 50%;
     justify-items: center;
     padding: 18.9vh 0;
+    
 @media (min-width: 320px) {
     padding: 19.4vh 0;
 }
@@ -48,6 +33,7 @@ export const StyledTagACentralSolucoes = styled.a`
     text-decoration: none;
     text-align: center;
     color: #000000;
+    
 @media (min-width: 320px) {
     width: 100px;
     padding: 20px;
