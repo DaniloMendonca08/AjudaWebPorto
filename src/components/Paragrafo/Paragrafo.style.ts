@@ -4,14 +4,15 @@ export const StyledParagraph = styled.p`
     font-family: 'Open Sans';
     font-size: 20px;
     font-weight: 300;
-    padding-top: 35px;
-    padding-bottom: 55px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     width: 90%;
     text-align: center;
 
     @media (min-width: 320px) {
-        font-size: 16px;
-        padding-bottom: 9.8vh;
+        font-size: 15px;
+        padding-bottom: 2vh;
+        padding-top: 2vh;
     }
 
     @media (min-width: 375px) {
