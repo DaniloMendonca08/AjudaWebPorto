@@ -7,6 +7,7 @@ export const StyledParagraph = styled.p`
     padding-top: 35px;
     padding-bottom: 55px;
     width: 90%;
+    text-align: center;
 
     @media (min-width: 320px) {
         font-size: 16px;
