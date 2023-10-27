@@ -1,27 +1,23 @@
-import { StyledH1BodyRevisoes } from "./BodyRevisoes.style"
+import { Imagem } from "../Imagem/Imagem"
+import { Titulo } from "../Titulo/Titulo"
+import imgRevisoesBreves from "../../assets/imgRevisoesBreves.svg"
 import { StyledBodyRevisoes } from "./BodyRevisoes.style"
-import { StyledImgBodyRevisoes } from "./BodyRevisoes.style"
 import { StyledDivBodyRevisoes } from "./BodyRevisoes.style"
-import { StyledTagPBodyRevisoes } from "./BodyRevisoes.style"
+import { Paragrafo } from "../Paragrafo/Paragrafo"
 
-interface BodyRevisoesprops{
-    titulo: string,
-    img: string,
-    texto: string,
-    descricao?: string,
-}
+export const paragrafoRevisoes = "A ideia com essas revisões breves é fazer com que o usuário ao inves de abrir diretamente um chamado, tenha uma série de perguntas técnicas e recomendações para fazer no veiculo para indentificar um possivel simples problema, com isso, vamos fazer com que um simples serviço que pode ser feito por uma pessoa física seja realizado, ao inves de ser chamado um guincho desnecessariamente."
 
-export const BodyRevisoes = ({titulo, img, texto, descricao}: BodyRevisoesprops) => {
+export const BodyRevisoes = () => {
     return(
         <>
         <StyledBodyRevisoes>
 
             <StyledDivBodyRevisoes>
-                <StyledH1BodyRevisoes> {titulo} </StyledH1BodyRevisoes>
+                <Titulo titulo= {"Revisões Breves"} />
 
-                <StyledImgBodyRevisoes  src={img} alt={descricao} />
+                <Imagem  img={imgRevisoesBreves} descricao="Imagem de alguém fazendo revisão no carro" />
 
-                <StyledTagPBodyRevisoes>{texto}</StyledTagPBodyRevisoes>
+                <Paragrafo texto={paragrafoRevisoes} />
             </StyledDivBodyRevisoes>
 
         </StyledBodyRevisoes>
