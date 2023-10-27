@@ -13,7 +13,7 @@ return(
         <StyledBodyAcionamento>
 
             <StyledDivBodyAcionamento>
-            <Titulo titulo={"Acionamento de Sinistro"} />
+            <Titulo titulo="Acionamento de Sinistro" />
             <Imagem img={imgAcionamentoSinistro} descricao= "Imagem de uma pessoa ligando para algúem/algum lugar"/>
             <Paragrafo texto={paragrafoAcionamento}/>
             </StyledDivBodyAcionamento>
