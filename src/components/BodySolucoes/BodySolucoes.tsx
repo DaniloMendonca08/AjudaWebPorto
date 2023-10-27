@@ -1,8 +1,8 @@
-import { StyledH1BodySolucoes } from "./BodySolucoes.style"
+import { Imagem } from "../Imagem/Imagem"
+import { Paragrafo } from "../Paragrafo/Paragrafo"
+import { Titulo } from "../Titulo/Titulo"
 import { StyledBodySolucoes } from "./BodySolucoes.style"
-import { StyledImgBodySolucoes } from "./BodySolucoes.style"
 import { StyledDivBodySolucoes } from "./BodySolucoes.style"
-import { StyledPBodySolucoes } from "./BodySolucoes.style"
 
 interface BodySolucoesprops{
     titulo: string,
@@ -17,11 +17,11 @@ export const BodySolucoes = ({titulo, img, texto, descricao}: BodySolucoesprops)
         <StyledBodySolucoes>
 
             <StyledDivBodySolucoes>
-                <StyledH1BodySolucoes> {titulo} </StyledH1BodySolucoes>
+                <Titulo  titulo={titulo} />
 
-                <StyledImgBodySolucoes  src={img} alt={descricao} />
+                <Imagem  img={img} descricao={descricao} />
 
-                <StyledPBodySolucoes>{texto}</StyledPBodySolucoes>
+                <Paragrafo texto={texto} />
             </StyledDivBodySolucoes>
 
         </StyledBodySolucoes>
