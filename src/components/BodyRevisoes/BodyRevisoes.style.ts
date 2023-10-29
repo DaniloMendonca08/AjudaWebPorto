@@ -6,7 +6,8 @@ export const StyledBodyRevisoes = styled.body`
 
 export const StyledDivBodyRevisoes = styled.div`
     display: grid;
+    grid-gap: 20px;
     justify-items: center;
-    padding: 0 20px;
+    padding: 20px;
 
 `
