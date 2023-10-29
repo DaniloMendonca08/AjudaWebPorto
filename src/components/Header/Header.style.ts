@@ -86,7 +86,6 @@ export const StyledImgPorto = styled.img`
 }
 
 @media (min-width: 768px) {
-    margin-left: 0;
     width: 130px;
 }
 
