@@ -7,7 +7,7 @@ export const StyledFooter = styled.footer`
     padding-bottom: 26px;
 
 @media (min-width: 320px) {
-    height: 16vh;
+    height: 150px;
 }
 
 @media (min-width: 768px) {
@@ -15,10 +15,10 @@ export const StyledFooter = styled.footer`
 }
 
 @media (min-width: 1024px) {
-    height: 23vh;
+    height: 18vh;
 }
 @media (min-width: 1440px) {
-    height: 25.2vh;
+    height: 19vh;
 }
 
 @media (min-width: 1920px) {
@@ -35,7 +35,7 @@ export const StyledParagraphFooter = styled.p`
     width: 100%;
 @media (min-width: 320px) {
     padding: 7px;
-    font-size: 11px;
+    font-size: 12px;
 }
  
 @media (min-width: 768px) {
@@ -44,7 +44,15 @@ export const StyledParagraphFooter = styled.p`
 
 @media (min-width: 1024px) {
     padding: 10px;
-    font-size: 16px;
+    font-size: 17px;
+}
+
+@media (min-width: 1440px) {
+    font-size: 20px;
+}
+
+@media (min-width: 1920px) {
+    font-size: 18px;
 }
 `
 
@@ -57,6 +65,7 @@ export const StyledAFooter = styled.a`
     background-color: #000000;
     color: #FFFFFF;
     border: 2px solid #FFFFFF;
+
 &:hover {
     background-color: #FFFFFF;
     color: #000000;
@@ -64,7 +73,8 @@ export const StyledAFooter = styled.a`
 }
 
 @media (min-width: 320px) {
-    padding: 0 14px;
+    padding: 0 10px;
+    font-size: 14px;
     
 }
 
@@ -75,5 +85,6 @@ export const StyledAFooter = styled.a`
 
 @media (min-width: 1440px) {
     padding: 2px 10px;
+    margin-top: 20px;
 }
 `
