@@ -11,14 +11,18 @@ export const StyledFooter = styled.footer`
 }
 
 @media (min-width: 768px) {
-    height: 26vh;
+    height: 19vh;
 }
 
 @media (min-width: 1024px) {
-    height: 28vh;
+    height: 23vh;
 }
 @media (min-width: 1440px) {
-    height: 21vh;
+    height: 25.2vh;
+}
+
+@media (min-width: 1920px) {
+    height: 24.4vh;
 }
 `
 export const StyledParagraphFooter = styled.p`
