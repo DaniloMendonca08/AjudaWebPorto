@@ -10,18 +10,21 @@ export const StyledParagraph = styled.p`
     text-align: center;
 
     @media (min-width: 320px) {
-        font-size: 15px;
+        font-size: 17px;
+        margin-bottom: 3vh;
         padding-bottom: 2vh;
         padding-top: 2vh;
     }
 
     @media (min-width: 375px) {
         font-size: 17px;
+        margin-bottom: 2.9vh;
         padding-bottom: 7.5vh;
     }
 
     @media (min-width: 425px) {
         padding-bottom: 9.7vh;
+        margin-bottom: 0.8vh;
     }
 
     @media (min-width: 768px) {
@@ -35,10 +38,11 @@ export const StyledParagraph = styled.p`
 
     @media (min-width: 1440px) {
         font-size: 25px;
-        padding-bottom: 6vh;
+        padding-bottom: 1vh;
     }
 
     @media (min-width: 1920px) {
+        font-size: 23px;
         padding-bottom: 3.3vh;
     }
 `
